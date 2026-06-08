@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://100.125.107.79:5432/finance_tracker
+    username: postgres
+    password: finance_secret_2026
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
