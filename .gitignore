@@ -39,8 +39,6 @@ build/
 
 ### IntelliJ IDEA ###
 .idea/
-*.iml
-*.iws
 out/
 
 ### Environment Variables & Secrets ###
